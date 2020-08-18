@@ -1,5 +1,4 @@
 package lambdaexpression.iterator;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,6 +17,7 @@ public class IterateUsingLambda {
 		 }
 
         // Please Implement Lambda Iteration on itemPrice map
+        itemPrice.forEach((k,v) -> System.out.println(" Device Name - " + k + ", Cost is - " + v));
 
     }
 }
